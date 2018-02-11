@@ -1,0 +1,37 @@
+
+4-a,b)
+$ git config --global user.name "Mahmoud.Gamal"
+$ git config --global user.email mahmoud.gamal1595@gmail.com 
+$ git init
+$ git remote add origin https://github.com/Jimmy1595/SE-Sprint0.git
+$ git remote -v
+$ git pull origin master
+$ git add Section1.1.txt
+$ git add Section3.1.txt
+$ git add Section5.1.txt
+$ git commit -m "Added the three text files containing the three sections from the book"
+$ git push origin master
+
+4-c,d)
+$ git rm Section3.1.txt
+$ git commit -m "The file Section3.1 got deleted"
+$ git push origin master
+#In order to roll back the deletion of the Selection3.1.txt file
+#I pulled the repository and re-added the file again then commited and pushed it.
+$ git pull origin master
+$ git add Section3.1.txt
+$ git commit -m "Restored the deleted Section3.1.txt file."
+$ git push origin master
+
+4-g,h,i,j,k)
+$ git checkout -b ReadMe
+$ git add README.md
+$ git checkout master
+$ git merge ReadMe
+$ git commit -m "Updated the README.md file"
+$ git push origin master
+
+4-l)
+$ git add AllMyCommands.txt 
+$ git commit -m "Added AllMyCommands.txt file"
+$ git push origin master
