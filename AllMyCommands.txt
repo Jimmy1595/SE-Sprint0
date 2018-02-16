@@ -3,7 +3,7 @@
 $ git config --global user.name "Mahmoud.Gamal"
 $ git config --global user.email mahmoud.gamal1595@gmail.com 
 $ git init
-$ git remote add origin https://github.com/Jimmy1595/SE-Sprint0.git
+$ git remote add origin https://github.com/MahmoudGamalIsmail/SE-Sprint0.git
 $ git remote -v
 $ git pull origin master
 $ git add Section1.1.txt
